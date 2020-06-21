@@ -44,7 +44,6 @@ g_key="API_KEY_HERE"
     - [Southern Hemisphere - Cloudiness (%) vs. Latitude](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
     - [Northern Hemisphere - Wind Speed (mph) vs. Latitude](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
     - S[outhern Hemisphere - Wind Speed (mph) vs. Latitude](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
-* Part II - VacationPy
 
 * [Part II - VacationPy](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/VacationPy/.ipynb_checkpoints/VacationPy-checkpoint.ipynb)
 
