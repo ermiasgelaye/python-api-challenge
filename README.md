@@ -29,7 +29,7 @@ g_key="API_KEY_HERE"
 ```
 
 ## Table of Contents
-* [Part I - WeatherPy](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
+* [Part I - WeatherPy](##WeatherPy)
   * [Scatter Plotting](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
     - [Latitude vs. Temperature Plot](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
     - [Humidity (%) vs. Latitude](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
@@ -47,7 +47,7 @@ g_key="API_KEY_HERE"
 
 * [Part II - VacationPy](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/VacationPy/.ipynb_checkpoints/VacationPy-checkpoint.ipynb)
 
-## Part I - WeatherPy
+## <a name="WeatherPy"></a> Part I - WeatherPy
 
 In this part a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator was created. After prforming the Api call from [**OpenWeatherMap API**](https://openweathermap.org/api) the dataframe of the dataset for this task looks as follows:
 
