@@ -135,16 +135,16 @@ After that a series of scatter plots were created to showcase the following rela
 ## <a name="Scatter_Plotting"></a> Scatter ploting
 After generating the data a series of scatter plots were created to showcase the following relationships:
 
-### <a name="Latitude vs. Temperature Plot"></a>Latitude vs. Temperature Plot
+### <a name="Latitude_vs._Temperature_Plot"></a>Latitude vs. Temperature Plot
 ![Latitude vs. Temperature Plot](WeatherPy/output_data/latitude_vs_temperature.png)
 
-### <a name="Humidity (%) vs. Latitude"></a>Humidity (%) vs. Latitude
+### <a name="Humidity_(%)_vs._Latitude"></a>Humidity (%) vs. Latitude
 ![Humidity (%) vs. Latitude](WeatherPy/output_data/latitude_vs_humidity.png)
 
-### <a name="Cloudiness (%) vs. Latitude"></a>Cloudiness (%) vs. Latitude
+### <a name="Cloudiness_(%)_vs._Latitude"></a>Cloudiness (%) vs. Latitude
 ![Cloudiness (%) vs. Latitude](WeatherPy/output_data/latitude_vs_cloudiness.png)
 
-### <a name="Wind Speed (mph) vs. Latitude"></a>Wind Speed (mph) vs. Latitude
+### <a name="Wind_Speed_(mph)_vs._Latitude"></a>Wind Speed (mph) vs. Latitude
 
 ![Wind Speed (mph) vs. Latitude](WeatherPy/output_data/latitude_vs_wind_speed.png)
 
