@@ -28,6 +28,26 @@ For part two, you wll need to obtain a Google API key from the Google Cloud Plat
 g_key="API_KEY_HERE"
 ```
 
+## Table of Contents
+* [Part I - WeatherPy](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
+  * Scatter Plotting 
+    . Latitude vs. Temperature Plot
+    . Humidity (%) vs. Latitude
+    . Cloudiness (%) vs. Latitude
+    . Wind Speed (mph) vs. Latitude
+  * linear regression & Scatter Plotting 
+   . Northern Hemisphere - Temperature (F) vs. Latitude
+   . Southern Hemisphere - Temperature (F) vs. Latitude
+   . Northern Hemisphere - Humidity (%) vs. Latitude
+   . Northern Hemisphere - Cloudiness (%) vs. Latitude
+   . Northern Hemisphere - Cloudiness (%) vs. Latitude
+   . Southern Hemisphere - Cloudiness (%) vs. Latitude
+   . Northern Hemisphere - Wind Speed (mph) vs. Latitude
+   . Southern Hemisphere - Wind Speed (mph) vs. Latitude
+* Part II - VacationPy
+
+* [Part II - VacationPy](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/VacationPy/.ipynb_checkpoints/VacationPy-checkpoint.ipynb)
+
 ## Part I - WeatherPy
 
 In this part a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator was created. After prforming the Api call from [**OpenWeatherMap API**](https://openweathermap.org/api) the dataframe of the dataset for this task looks as follows:
