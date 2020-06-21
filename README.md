@@ -2,15 +2,27 @@
 
 ## Background
 
-Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. So let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
+This project has two parts one used an API requests, and Python script to visualize the weather date of 500+ cities across the world of varying distance from the equator, and sourced under [**WeatherPy folder**](WeatherPy/). To accomplish th, I utilized a [**simple Python library**](https://pypi.python.org/pypi/citipy), the [**OpenWeatherMap API**](https://openweathermap.org/api), and created a representative model of weather across world cities.The cities dataset found in [**output_data folder**](WeatherPy/output_data/cities.csv) which includes the following columns `City_ID`,`City`,`Cloudines`,`Country`,`Date`,`Humidity`,`Lat`,`Lng`,`Max`,`Temp`,`Wind Speed`. The data analyzed, and displayed on [jupyter notebook](WeatherPy/WeatherPy.ipynb) , and the result [**City_weather_data.csv**](WeatherPy/output_data/City_weather_data.csv), and plots are exported in [**output_data folder**](WeatherPy/output_data/).
 
-Now, we know what you may be thinking: _"Duh. It gets hotter..."_
+The other project [**VacationPy**](VacationPy/) is used the output data from the previous task [**City_weather_data.csv**](WeatherPy/output_data/City_weather_data.csv) to plan for future vacations. For this part of analysis the a jupyter-gmaps, and the Google Places were used, and the results are displayed[**jupyter notebook**](VacationPy/VacationPy.ipynb). Basically, the analysis covers humidity heatmap in the cities that sourced from the weather data, and plot the hotels on top of the humidity heatmap. You can look the images in the out put folder for bott [**the heatmap**](VacationPy/output_data/Heatmap.png) and [**the hotel heatmap**](VacationPy/output_data/hotel.png,)images.
 
-But, if pressed, how would you **prove** it?
+## <a name="api_keys"></a> API Keys
 
-![Equator](Images/equatorsign.png)
+
+To run localy the python files for both [WeatherPy](WeatherPy/WeatherPy.ipynb),and [jupyter notebook](VacationPyy/VacationPy.ipynb) projects you need to obtain API keys. For part one, you will need to obtain an API key for the OpenWeatherMap API, which can be obtained [here](https://home.openweathermap.org/api_keys). After you have the OpenWeatherMap API key, in the **WeatherPy** folder, [**config.py**](WeatherPy/api_keys.py) file add the API key there it looks as follows:
+
+```bash
+weather_api_key="API_KEY_HERE"
+
+```
+For part two, you wll need to obtain a Google API key from the Google Cloud Platform at <https://cloud.google.com> and enable the **Places API**. After you have the Google API key,in the **VacationPy** folder, [**config.py**](VacationPy/api_keys.py) file add the API key there it looks as follows:
+
+```bash
+g_key="API_KEY_HERE"
+```
 
 ## Part I - WeatherPy
+![Equator](Images/equatorsign.png)
 
 In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
 
