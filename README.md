@@ -122,7 +122,7 @@ After generating the data a series of scatter plots were created to showcase the
 ### Humidity (%) vs. Latitude
 ![Humidity (%) vs. Latitude](WeatherPy/output_data/latitude_vs_humidity.png)
 
-### [Cloudiness (%) vs. Latitude
+### Cloudiness (%) vs. Latitude
 ![Cloudiness (%) vs. Latitude](WeatherPy/output_data/latitude_vs_cloudiness.png)
 
 ### Wind Speed (mph) vs. Latitude
