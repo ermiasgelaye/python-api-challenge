@@ -29,7 +29,7 @@ g_key="API_KEY_HERE"
 ```
 
 ## Table of Contents
-* [Part I - WeatherPy](##WeatherPy)
+* [Part I - WeatherPy](#WeatherPy)
   * [Scatter Plotting](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
     - [Latitude vs. Temperature Plot](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
     - [Humidity (%) vs. Latitude](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
