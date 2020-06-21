@@ -31,7 +31,7 @@ g_key="API_KEY_HERE"
 ## Table of Contents
 * [Part I - WeatherPy](#WeatherPy)
   * [Scatter Plotting](#Scatter_Plotting)
-   - [Latitude vs. Temperature Plot](#Latitude_vs._Temperature Plot)
+   - [Latitude vs. Temperature Plot](#Latitude_vs._Temperature_Plot)
    - [Humidity (%) vs. Latitude](#Humidity_(%)_vs._Latitude)
    - [Cloudiness (%) vs. Latitude](#Cloudiness_(%)_vs._Latitude)
    - [Wind Speed (mph) vs. Latitude](#Wind_Speed_(mph)_vs._Latitude)
