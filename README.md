@@ -29,40 +29,125 @@ g_key="API_KEY_HERE"
 ```
 
 ## Part I - WeatherPy
-![Equator](Images/equatorsign.png)
 
-In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
+In this part a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator was created. After prforming the Api call from [**OpenWeatherMap API**](https://openweathermap.org/api) the dataframe of the dataset for this task looks as follows:
 
-Your first requirement is to create a series of scatter plots to showcase the following relationships:
+ <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>City</th>
+      <th>Lat</th>
+      <th>lng</th>
+      <th>Max Temp</th>
+      <th>Humidity</th>
+      <th>Cloudiness</th>
+      <th>Wind Speed</th>
+      <th>Country</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>pierre</td>
+      <td>44.37</td>
+      <td>-100.35</td>
+      <td>77.00</td>
+      <td>47.0</td>
+      <td>40.0</td>
+      <td>13.87</td>
+      <td>US</td>
+      <td>1.592704e+09</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>salalah</td>
+      <td>17.02</td>
+      <td>54.09</td>
+      <td>82.40</td>
+      <td>88.0</td>
+      <td>75.0</td>
+      <td>4.70</td>
+      <td>OM</td>
+      <td>1.592704e+09</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>kununurra</td>
+      <td>-15.77</td>
+      <td>128.73</td>
+      <td>84.20</td>
+      <td>30.0</td>
+      <td>31.0</td>
+      <td>13.87</td>
+      <td>AU</td>
+      <td>1.592704e+09</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>upernavik</td>
+      <td>72.79</td>
+      <td>-56.15</td>
+      <td>39.76</td>
+      <td>73.0</td>
+      <td>0.0</td>
+      <td>8.52</td>
+      <td>GL</td>
+      <td>1.592704e+09</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>seybaplaya</td>
+      <td>19.65</td>
+      <td>-90.67</td>
+      <td>86.00</td>
+      <td>84.0</td>
+      <td>40.0</td>
+      <td>11.41</td>
+      <td>MX</td>
+      <td>1.592704e+09</td>
+    </tr>
+  </tbody>
+</table>
 
-* Temperature (F) vs. Latitude
-* Humidity (%) vs. Latitude
-* Cloudiness (%) vs. Latitude
-* Wind Speed (mph) vs. Latitude
+After that a series of scatter plots were created to showcase the following relationships:
 
-After each plot add a sentence or too explaining what the code is and analyzing.
+## Plotting the Data
+After generating the data a series of scatter plots were created to showcase the following relationships:
 
-Your second requirement is to run linear regression on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
+### Latitude vs. Temperature Plot
+![Latitude vs. Temperature Plot](output_data/latitude_vs_temperature.png)
 
-* Northern Hemisphere - Temperature (F) vs. Latitude
-* Southern Hemisphere - Temperature (F) vs. Latitude
-* Northern Hemisphere - Humidity (%) vs. Latitude
-* Southern Hemisphere - Humidity (%) vs. Latitude
-* Northern Hemisphere - Cloudiness (%) vs. Latitude
-* Southern Hemisphere - Cloudiness (%) vs. Latitude
-* Northern Hemisphere - Wind Speed (mph) vs. Latitude
-* Southern Hemisphere - Wind Speed (mph) vs. Latitude
+### Humidity (%) vs. Latitude
+![Humidity (%) vs. Latitude](output_data/latitude_vs_humidity.png)
 
-After each pair of plots explain what the linear regression is modeling such as any relationships you notice and any other analysis you may have.
+### [Cloudiness (%) vs. Latitude
+![Cloudiness (%) vs. Latitude](Images/latitude_vs_temperature.png)
 
-**Optional** You will be creating multiple linear regression plots. To optimize your code, write a function that creates the linear regression plots.
+### Wind Speed (mph) vs. Latitude
 
-Your final notebook must:
+![Wind Speed (mph) vs. Latitude](Images/latitude_vs_temperature.png)
 
-* Randomly select **at least** 500 unique (non-repeat) cities based on latitude and longitude.
-* Perform a weather check on each of the cities using a series of successive API calls.
-* Include a print log of each city as it's being processed with the city number and city name.
-* Save a CSV of all retrieved data and a PNG image for each scatter plot.
+
+A linear regression was conducted on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
+
+### Northern Hemisphere - Temperature (F) vs. Latitude
+![Northern Hemisphere - Temperature (F) vs. Latitude](/output_data/Northern_Hemisphere_Max_lat_lin.png)
+### Southern Hemisphere - Temperature (F) vs. Latitude
+![Southern Hemisphere - Temperature (F) vs. Latitude](/output_data/southern_Hemisphere_Max_lat_lin.png)
+### Northern Hemisphere - Humidity (%) vs. Latitude
+![Northern Hemisphere - Humidity (%) vs. Latitude](/output_data/Northern_Hemisphere_Humidity _Latitude_Linear.png)
+### Southern Hemisphere - Humidity (%) vs. Latitude
+![Southern Hemisphere - Humidity (%) vs. Latitude](/output_data/southern_humudity_Hemisphere_Max_lat_lin.png)
+### Northern Hemisphere - Cloudiness (%) vs. Latitude
+![Northern Hemisphere - Cloudiness (%) vs. Latitude](/output_data/Northern_Hemisphere_Cloudiness_Latitude_Linear.png)
+### Southern Hemisphere - Cloudiness (%) vs. Latitude
+![Southern Hemisphere - Cloudiness (%) vs. Latitude](/output_data/Southern_Hemisphere_Cloudiness_Latitude_Linear.png)
+### Northern Hemisphere - Wind Speed (mph) vs. Latitude
+![Northern Hemisphere - Wind Speed (mph) vs. Latitu](/output_data/Northern_Hemisphere_Wind_Speed_Latitude_Lin.png)
+### Southern Hemisphere - Wind Speed (mph) vs. Latitude
+![Southern Hemisphere - Wind Speed (mph) vs. Latitude](/output_data/Southern_Hemisphere_Wind_Speed_Latitude_Linear_Regression.png)
 
 ### Part II - VacationPy
 
