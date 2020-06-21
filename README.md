@@ -123,11 +123,11 @@ After generating the data a series of scatter plots were created to showcase the
 ![Humidity (%) vs. Latitude](WeatherPy/output_data/latitude_vs_humidity.png)
 
 ### [Cloudiness (%) vs. Latitude
-![Cloudiness (%) vs. Latitude](WeatherPy/latitude_vs_cloudiness.png)
+![Cloudiness (%) vs. Latitude](WeatherPy/output_data/latitude_vs_cloudiness.png)
 
 ### Wind Speed (mph) vs. Latitude
 
-![Wind Speed (mph) vs. Latitude](WeatherPy/latitude_vs_wind_speed.png)
+![Wind Speed (mph) vs. Latitude](WeatherPy/output_data/latitude_vs_wind_speed.png)
 
 
 A linear regression was conducted on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
