@@ -151,21 +151,21 @@ After generating the data a series of scatter plots were created to showcase the
 
 A linear regression was conducted on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
-### <a name="Northern Hemisphere - Temperature (F) vs. Latitude"></a>Northern Hemisphere - Temperature (F) vs. Latitude
+### <a name="Northern Hemisphere - Temperature (F) vs. Latitude"></a> Northern Hemisphere - Temperature (F) vs. Latitude
 ![Northern Hemisphere - Temperature (F) vs. Latitude](WeatherPy/output_data/Northern_Hemisphere_Max_lat_lin.png)
-### <a name="Southern Hemisphere - Temperature (F) vs. Lat"></a>Southern Hemisphere - Temperature (F) vs. Latitude
+### <a name="Southern Hemisphere - Temperature (F) vs. Lat"></a> Southern Hemisphere - Temperature (F) vs. Latitude
 ![Southern Hemisphere - Temperature (F) vs. Latitude](WeatherPy/output_data/southern_Hemisphere_Max_lat_lin.png)
-### N<a name="Northern Hemisphere - Humidity (%) vs. Latitude"></a>Northern Hemisphere - Humidity (%) vs. Latitude
+### N<a name="Northern Hemisphere - Humidity (%) vs. Latitude"></a> Northern Hemisphere - Humidity (%) vs. Latitude
 ![Northern Hemisphere - Humidity (%) vs. Latitude](WeatherPy/output_data/Northern_Hemisphere_Humidity _Latitude_Linear.png)
-### <a name="Southern Hemisphere - Humidity (%) vs. Latitud"></a>Southern Hemisphere - Humidity (%) vs. Latitude
+### <a name="Southern Hemisphere - Humidity (%) vs. Latitud"></a> Southern Hemisphere - Humidity (%) vs. Latitude
 ![Southern Hemisphere - Humidity (%) vs. Latitude](WeatherPy/output_data/southern_humudity_Hemisphere_Max_lat_lin.png)
-### <a name="Northern Hemisphere - Cloudiness (%) vs. Latitud"></a>Northern Hemisphere - Cloudiness (%) vs. Latitude
+### <a name="Northern Hemisphere - Cloudiness (%) vs. Latitud"></a> Northern Hemisphere - Cloudiness (%) vs. Latitude
 ![Northern Hemisphere - Cloudiness (%) vs. Latitude](WeatherPy/output_data/Northern_Hemisphere_Cloudiness_Latitude_Linear.png)
-### <a name="Southern Hemisphere - Cloudiness (%) vs. Latitude"></a>Southern Hemisphere - Cloudiness (%) vs. Latitude
+### <a name="Southern Hemisphere - Cloudiness (%) vs. Latitude"></a> Southern Hemisphere - Cloudiness (%) vs. Latitude
 ![Southern Hemisphere - Cloudiness (%) vs. Latitude](WeatherPy/output_data/Southern_Hemisphere_Cloudiness_Latitude_Linear.png)
-### <a name="Northern Hemisphere - Wind Speed (mph) vs. Latitude"></a>Northern Hemisphere - Wind Speed (mph) vs. Latitude
+### <a name="Northern Hemisphere - Wind Speed (mph) vs. Latitude"></a> Northern Hemisphere - Wind Speed (mph) vs. Latitude
 ![Northern Hemisphere - Wind Speed (mph) vs. Latitu](WeatherPy/output_data/Northern_Hemisphere_Wind_Speed_Latitude_Lin.png)
-### <a name="Southern Hemisphere - Wind Speed (mph) vs. Latitude"></a>Southern Hemisphere - Wind Speed (mph) vs. Latitude
+### <a name="Southern Hemisphere - Wind Speed (mph) vs. Latitude"></a> Southern Hemisphere - Wind Speed (mph) vs. Latitude
 ![Southern Hemisphere - Wind Speed (mph) vs. Latitude](WeatherPy/output_data/Southern_Hemisphere_Wind_Speed_Latitude_Linear_Regression.png)
 
 ### Part II - VacationPy
