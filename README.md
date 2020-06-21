@@ -35,7 +35,7 @@ g_key="API_KEY_HERE"
    - [Humidity (%) vs. Latitude](#Humidity_(%)_vs._Latitude)
    - [Cloudiness (%) vs. Latitude](#Cloudiness_(%)_vs._Latitude)
    - [Wind Speed (mph) vs. Latitude](#Wind_Speed_(mph)_vs._Latitude)
-  * [linear regression & Scatter Plotting](#linear_regression_&_Scatter_Plotting)
+  * [linear regression & Scatter Plotting](#linear_regression_& Scatter_Plotting)
    - [Northern Hemisphere - Temperature (F) vs. Latitude](#Northern_Hemisphere_Temperature_(F)_vs._Latitude)
    - [Southern Hemisphere - Temperature (F) vs. Latitude](#Southern_Hemisphere_Temperature_(F)_vs._Latitude)
    - [Northern Hemisphere - Humidity (%) vs. Latitude](#Northern Hemisphere_Humidity_(%)_vs._Latitude)
