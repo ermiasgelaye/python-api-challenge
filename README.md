@@ -1,4 +1,5 @@
-# Python API Challenge - What's the Weather Like?
+# Python API Challenge
+## What's the Weather Like?
 ![Equator](Images/second.gif)
 ## Background
 
