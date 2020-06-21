@@ -31,10 +31,10 @@ g_key="API_KEY_HERE"
 ## Table of Contents
 * [Part I - WeatherPy](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
   * Scatter Plotting 
-    . Latitude vs. Temperature Plot
-    . Humidity (%) vs. Latitude
-    . Cloudiness (%) vs. Latitude
-    . Wind Speed (mph) vs. Latitude
+    - Latitude vs. Temperature Plot
+    - Humidity (%) vs. Latitude
+    - Cloudiness (%) vs. Latitude
+    - Wind Speed (mph) vs. Latitude
   * linear regression & Scatter Plotting 
    . Northern Hemisphere - Temperature (F) vs. Latitude
    . Southern Hemisphere - Temperature (F) vs. Latitude
