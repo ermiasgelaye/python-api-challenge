@@ -30,7 +30,7 @@ g_key="API_KEY_HERE"
 
 ## Table of Contents
 * [Part I - WeatherPy](#WeatherPy)
-  * [Scatter Plotting](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
+  * [Scatter Plotting](#Scatter_Plotting)
     - [Latitude vs. Temperature Plot](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
     - [Humidity (%) vs. Latitude](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
     - [Cloudiness (%) vs. Latitude](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
@@ -132,7 +132,7 @@ In this part a Python script to visualize the weather of 500+ cities across the 
 
 After that a series of scatter plots were created to showcase the following relationships:
 
-## Plotting the Data
+## <a name="Scatter_Plotting"></a> Scatter ploting
 After generating the data a series of scatter plots were created to showcase the following relationships:
 
 ### Latitude vs. Temperature Plot
