@@ -117,37 +117,37 @@ After that a series of scatter plots were created to showcase the following rela
 After generating the data a series of scatter plots were created to showcase the following relationships:
 
 ### Latitude vs. Temperature Plot
-![Latitude vs. Temperature Plot](output_data/latitude_vs_temperature.png)
+![Latitude vs. Temperature Plot](WeatherPy/output_data/latitude_vs_temperature.png)
 
 ### Humidity (%) vs. Latitude
-![Humidity (%) vs. Latitude](output_data/latitude_vs_humidity.png)
+![Humidity (%) vs. Latitude](WeatherPy/output_data/latitude_vs_humidity.png)
 
 ### [Cloudiness (%) vs. Latitude
-![Cloudiness (%) vs. Latitude](Images/latitude_vs_temperature.png)
+![Cloudiness (%) vs. Latitude](WeatherPy/Images/latitude_vs_temperature.png)
 
 ### Wind Speed (mph) vs. Latitude
 
-![Wind Speed (mph) vs. Latitude](Images/latitude_vs_temperature.png)
+![Wind Speed (mph) vs. Latitude](WeatherPy/Images/latitude_vs_temperature.png)
 
 
 A linear regression was conducted on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 ### Northern Hemisphere - Temperature (F) vs. Latitude
-![Northern Hemisphere - Temperature (F) vs. Latitude](/output_data/Northern_Hemisphere_Max_lat_lin.png)
+![Northern Hemisphere - Temperature (F) vs. Latitude](WeatherPy//output_data/Northern_Hemisphere_Max_lat_lin.png)
 ### Southern Hemisphere - Temperature (F) vs. Latitude
-![Southern Hemisphere - Temperature (F) vs. Latitude](/output_data/southern_Hemisphere_Max_lat_lin.png)
+![Southern Hemisphere - Temperature (F) vs. Latitude](WeatherPy//output_data/southern_Hemisphere_Max_lat_lin.png)
 ### Northern Hemisphere - Humidity (%) vs. Latitude
-![Northern Hemisphere - Humidity (%) vs. Latitude](/output_data/Northern_Hemisphere_Humidity _Latitude_Linear.png)
+![Northern Hemisphere - Humidity (%) vs. Latitude](WeatherPy//output_data/Northern_Hemisphere_Humidity _Latitude_Linear.png)
 ### Southern Hemisphere - Humidity (%) vs. Latitude
-![Southern Hemisphere - Humidity (%) vs. Latitude](/output_data/southern_humudity_Hemisphere_Max_lat_lin.png)
+![Southern Hemisphere - Humidity (%) vs. Latitude](WeatherPy//output_data/southern_humudity_Hemisphere_Max_lat_lin.png)
 ### Northern Hemisphere - Cloudiness (%) vs. Latitude
-![Northern Hemisphere - Cloudiness (%) vs. Latitude](/output_data/Northern_Hemisphere_Cloudiness_Latitude_Linear.png)
+![Northern Hemisphere - Cloudiness (%) vs. Latitude](WeatherPy//output_data/Northern_Hemisphere_Cloudiness_Latitude_Linear.png)
 ### Southern Hemisphere - Cloudiness (%) vs. Latitude
-![Southern Hemisphere - Cloudiness (%) vs. Latitude](/output_data/Southern_Hemisphere_Cloudiness_Latitude_Linear.png)
+![Southern Hemisphere - Cloudiness (%) vs. Latitude](WeatherPy//output_data/Southern_Hemisphere_Cloudiness_Latitude_Linear.png)
 ### Northern Hemisphere - Wind Speed (mph) vs. Latitude
-![Northern Hemisphere - Wind Speed (mph) vs. Latitu](/output_data/Northern_Hemisphere_Wind_Speed_Latitude_Lin.png)
+![Northern Hemisphere - Wind Speed (mph) vs. Latitu](WeatherPy//output_data/Northern_Hemisphere_Wind_Speed_Latitude_Lin.png)
 ### Southern Hemisphere - Wind Speed (mph) vs. Latitude
-![Southern Hemisphere - Wind Speed (mph) vs. Latitude](/output_data/Southern_Hemisphere_Wind_Speed_Latitude_Linear_Regression.png)
+![Southern Hemisphere - Wind Speed (mph) vs. Latitude](WeatherPy//output_data/Southern_Hemisphere_Wind_Speed_Latitude_Linear_Regression.png)
 
 ### Part II - VacationPy
 
