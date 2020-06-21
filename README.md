@@ -30,20 +30,20 @@ g_key="API_KEY_HERE"
 
 ## Table of Contents
 * [Part I - WeatherPy](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
-  * Scatter Plotting 
-    - Latitude vs. Temperature Plot
-    - Humidity (%) vs. Latitude
-    - Cloudiness (%) vs. Latitude
-    - Wind Speed (mph) vs. Latitude
-  * linear regression & Scatter Plotting 
-    - Northern Hemisphere - Temperature (F) vs. Latitude
-    - Southern Hemisphere - Temperature (F) vs. Latitude
-    - Northern Hemisphere - Humidity (%) vs. Latitude
-    - Northern Hemisphere - Cloudiness (%) vs. Latitude
-    - Northern Hemisphere - Cloudiness (%) vs. Latitude
-    - Southern Hemisphere - Cloudiness (%) vs. Latitude
-    - Northern Hemisphere - Wind Speed (mph) vs. Latitude
-    - Southern Hemisphere - Wind Speed (mph) vs. Latitude
+  * [Scatter Plotting](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
+    - [Latitude vs. Temperature Plot](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
+    - [Humidity (%) vs. Latitude](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
+    - [Cloudiness (%) vs. Latitude](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
+    - [Wind Speed (mph) vs. Latitude](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
+  * [linear regression & Scatter Plotting] (https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
+    - [Northern Hemisphere - Temperature (F) vs. Latitude](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
+    - [Southern Hemisphere - Temperature (F) vs. Latitude](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
+    - [Northern Hemisphere - Humidity (%) vs. Latitude](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
+    - [Northern Hemisphere - Cloudiness (%) vs. Latitude](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
+    - [Northern Hemisphere - Cloudiness (%) vs. Latitude](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
+    - [Southern Hemisphere - Cloudiness (%) vs. Latitude](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
+    - [Northern Hemisphere - Wind Speed (mph) vs. Latitude](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
+    - S[outhern Hemisphere - Wind Speed (mph) vs. Latitude](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
 * Part II - VacationPy
 
 * [Part II - VacationPy](https://nbviewer.ipython.org/github/ermiasgelaye/python-api-challenge/blob/master/VacationPy/.ipynb_checkpoints/VacationPy-checkpoint.ipynb)
