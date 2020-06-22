@@ -218,7 +218,7 @@ If gmaps is not working in your environment try to enable by using this code `ju
 
   ![heatmap](Images/heatmap.png)
 
-* A new data dataFrame was created by narrow down the weather data to find the ideal weather condition. For example:
+* A new dataFrame was created by narrow down the weather data to find the ideal weather condition.
 
 * Finally a gmaps plot is created for hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
 
