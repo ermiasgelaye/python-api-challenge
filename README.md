@@ -222,7 +222,7 @@ If gmaps is not working in your environment try to enable by using this code `ju
 
 * Finally a gmaps plot is created for hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
 
-  ![hotel map](Images/hotel_map.png)
+  ![hotel map](Images/hotel.png)
 
 
 
