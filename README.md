@@ -27,6 +27,14 @@ For part two, you will need to obtain a Google API key from the Google Cloud Pla
 ```bash
 g_key="API_KEY_HERE"
 ```
+## Observable Trends and Insights 
+
+* 
+
+
+
+
+
 
 ## Table of Contents
 * [Part I - WeatherPy](#WeatherPy)
