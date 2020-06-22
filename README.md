@@ -5,7 +5,7 @@
 
 This project has two parts one used an API request, and Python script to visualize the weather date of 500+ cities across the world of varying distance from the equator, and sourced under [**WeatherPy folder**](WeatherPy/). To accomplish this, I utilized a [**simple Python library**](https://pypi.python.org/pypi/citipy), the [**OpenWeatherMap API**](https://openweathermap.org/api), and created a representative model of weather across world cities. The cities dataset found in [**output_data folder**](WeatherPy/output_data/cities.csv) which includes the following columns `City_ID`,`City`,`Cloudines`,`Country`,`Date`, `Humidity`,`Lat`,`Lng`,`Max`,`Temp`,`Wind Speed`. The data analyzed, and displayed on [**WeatherPy jupyter notebook**](WeatherPy/WeatherPy.ipynb), and the results are exported in CSV format [**city_weather_data.csv**](WeatherPy/output_data/city_weather_data.csv), and the regression plots in the [**output folder**](WeatherPy/output_data/).
 
-The other project [**VacationPy**](VacationPy/) is used the output data from the previous task [**city_weather_data.csv**](WeatherPy/output_data/city_weather_data.csv), and investigate the data to plan for future vacations, and to select hotels. For this part of the analysis the a jupyter-gmaps, and the Google Places were used, and the results are displayed in [**VacationPy jupyter notebook**](VacationPy/VacationPy.ipynb). The analysis covers humidity heatmap in the cities that sourced from the weather data, and plot the hotels on top of the humidity heatmap. You can look at the images in the output folder for both [**the heatmap**](VacationPy/output_data/Heatmap.png) and [**the hotel heatmap**](VacationPy/output_data/hotel.png,) images.
+The other project [**VacationPy**](VacationPy/) is used the output data from the previous task [**city_weather_data.csv**](WeatherPy/output_data/city_weather_data.csv), and investigate the data to plan for future vacations, and to select hotels. For this part of the analysis the a jupyter-gmaps, and the Google Places were used, and the results are displayed in [**VacationPy jupyter notebook**](VacationPy/VacationPy.ipynb). The analysis covers humidity heatmap in the cities that sourced from the weather data, and spot the hotels on top of the humidity heatmap. You can look at the images in the output folder for both [**the heatmap**](VacationPy/output_data/Heatmap.png) and [**the hotel heatmap**](VacationPy/output_data/hotel.png,) images.
 
 For both parts to communicate the analysis report the following links are created in Jupyter viewer: 
 
@@ -169,12 +169,10 @@ A linear regression was conducted on each relationship, only this time separatin
 ![Southern Hemisphere - Wind Speed (mph) vs. Latitude](WeatherPy/output_data/Southern_Hemisphere_Wind_Speed_Latitude_Linear_Regression.png)
 
 ### Part II - VacationPy
+In this part I used a jupyter-gmaps, and the Google Places API for displaying the maps try running humidity heatmap in the cities that sourced from the weather data, and spot the hotels on top of the humidity heatmap.
+If gmaps is not working in your environment try to enable by using this code `jupyter nbextension enable --py gmaps`.
 
-Now let's use your skills in working with weather data to plan future vacations. Use jupyter-gmaps and the Google Places API for this part of the assignment.
-
-* **Note:** if you having trouble displaying the maps try running `jupyter nbextension enable --py gmaps` in your environment and retry.
-
-* Create a heat map that displays the humidity for every city from the part I of the homework.
+* A heat map that displays the humidity for every city from the part I was created.
 
   ![heatmap](Images/heatmap.png)
 
