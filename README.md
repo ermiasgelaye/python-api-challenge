@@ -170,27 +170,16 @@ A linear regression was conducted on each relationship, only this time separatin
 
 ### Part II - VacationPy
 In this part I used a jupyter-gmaps, and the Google Places API for displaying the maps try running humidity heatmap in the cities that sourced from the weather data, and spot the hotels on top of the humidity heatmap.
+
 If gmaps is not working in your environment try to enable by using this code `jupyter nbextension enable --py gmaps`.
 
 * A heat map that displays the humidity for every city from the part I was created.
 
   ![heatmap](Images/heatmap.png)
 
-* Narrow down the DataFrame to find your ideal weather condition. For example:
+* A new data dataFrame was created by narrow down the weather data to find the ideal weather condition. For example:
 
-  * A max temperature lower than 80 degrees but higher than 70.
-
-  * Wind speed less than 10 mph.
-
-  * Zero cloudiness.
-
-  * Drop any rows that don't contain all three conditions. You want to be sure the weather is ideal.
-
-  * **Note:** Feel free to adjust to your specifications but be sure to limit the number of rows returned by your API requests to a reasonable number.
-
-* Using Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
-
-* Plot the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
+* Finally a gmaps plot is created for hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
 
   ![hotel map](Images/hotel_map.png)
 
