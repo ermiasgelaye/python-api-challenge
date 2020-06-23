@@ -57,7 +57,7 @@ g_key="API_KEY_HERE"
 
 ## <a name="WeatherPy"></a> Part I - WeatherPy
 
-In this part, a Python script to visualize the weather of 500+ cities across the world of varying distances from the equator was created. After performing the API call from [**OpenWeatherMap API**](https://openweathermap.org/api) the dataframe of the dataset for this task looks as follows:
+In this part, a Python script to visualize the weather of 500+ cities across the world of varying distances from the equator was created. After performing the API call from [**OpenWeatherMap API**](https://openweathermap.org/api) the following dataframe was created:
 
  <table border="1" class="dataframe">
   <thead>
