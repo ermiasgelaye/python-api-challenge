@@ -177,7 +177,7 @@ The above plot is a linear regression model between Maximum tempreture and latit
 
 The above plot is a linear regression model between Maximum tempreture and latitude for Southern Hemisphere cities. The result from the data showed that there is a very week almost none negative correlation between Maximum Tempreture and latitude in the Southern Hemisphere cities.
 
-![Northern Hemisphere - Humidity (%) vs. Latitude](WeatherPy/output_data/Northern_Hemisphere_Humidity _Latitude_Linear.png)
+![Northern Hemisphere - Humidity (%) vs. Latitude](WeatherPy/output_data/Northern_Hemisphere_Humidity_Latitude_Linear.png)
 
 The above plot is a linear regression model between Humidity (%) and Latitude for Northern Hemisphere cities. The result from the data showed that there is a very week negative correlation between Humidity (%) and Latitude in the Northern Hemisphere cities.
 
