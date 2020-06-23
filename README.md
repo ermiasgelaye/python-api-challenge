@@ -174,7 +174,7 @@ The above plot is a linear regression model between Maximum tempreture and latit
 ### <a name="#Southern_Hemisphere_Temperature_(F)_vs._Latitude"></a> Southern Hemisphere - Temperature (F) vs. Latitude
 ![Southern Hemisphere - Temperature (F) vs. Latitude](WeatherPy/output_data/southern_Hemisphere_Max_lat_lin.png)
 
-The above plot is a linear regression model between Maximum tempreture and latitude for Southern Hemisphere cities. The result from the data showed that there is a very week almost none negative correlation between Maximum Tempreture and latitude in the Southern Hemisphere cities.
+The above plot is a linear regression model between Maximum tempreture and latitude for Southern Hemisphere cities. The result from the data showed that there is a very week negative correlation between Maximum Tempreture and latitude in the Southern Hemisphere cities.
 
 ![Northern Hemisphere - Humidity (%) vs. Latitude](WeatherPy/output_data/Northern_Hemisphere_Humidity_Latitude_Linear.png)
 
@@ -183,17 +183,17 @@ The above plot is a linear regression model between Humidity (%) and Latitude fo
 ### <a name="Southern_Hemisphere_Humidity_(%)_vs._Latitude"></a> Southern Hemisphere - Humidity (%) vs. Latitude
 ![Southern Hemisphere - Humidity (%) vs. Latitude](WeatherPy/output_data/southern_humudity_Hemisphere_Max_lat_lin.png)
 
-The above plot is a linear regression model between Humidity (%) and Latitude for Southern Hemisphere cities. The result from the data showed that there is a very week, almost none negative correlation between Humidity (%) and Latitude in the Southern Hemisphere cities.
+The above plot is a linear regression model between Humidity (%) and Latitude for Southern Hemisphere cities. The result from the data showed that there is a very week, negative correlation between Humidity (%) and Latitude in the Southern Hemisphere cities.
 
 ### <a name="Northern_Hemisphere_Cloudiness_(%)_vs._Latitude"></a> Northern Hemisphere - Cloudiness (%) vs. Latitude
 ![Northern Hemisphere - Cloudiness (%) vs. Latitude](WeatherPy/output_data/Northern_Hemisphere_Cloudiness_Latitude_Linear.png)
 
-The above plot is a linear regression model between Cloudiness (%) and Latitude for Northern_Hemisphere cities. The result from the data showed that there is a very week, almost none negative correlation between Cloudiness (%) and Latitude in the Southern Hemisphere cities.
+The above plot is a linear regression model between Cloudiness (%) and Latitude for Northern_Hemisphere cities. The result from the data showed that there is a very week,negative correlation between Cloudiness (%) and Latitude in the Southern Hemisphere cities.
 
 ### <a name="Southern_Hemisphere_Cloudiness_(%)_vs._Latitude"></a> Southern Hemisphere - Cloudiness (%) vs. Latitude
 ![Southern Hemisphere - Cloudiness (%) vs. Latitude](WeatherPy/output_data/Southern_Hemisphere_Cloudiness_Latitude_Linear.png)
 
-The above plot is a linear regression model between Cloudiness (%) and for Southern Hemisphere cities. The result from the data showed that there is a very week, almost none negative correlation between Cloudiness (%) and Latitude in the Southern Hemisphere cities.
+The above plot is a linear regression model between Cloudiness (%) and for Southern Hemisphere cities. The result from the data showed that there is a very week,negative correlation between Cloudiness (%) and Latitude in the Southern Hemisphere cities.
 
 ### <a name="Northern_Hemisphere_Wind_Speed_(mph)_vs._Latitude"></a> Northern Hemisphere - Wind Speed (mph) vs. Latitude
 ![Northern Hemisphere - Wind Speed (mph) vs. Latitud](WeatherPy/output_data/Northern_Hemisphere_Wind_Speed_Latitude_Lin.png)
