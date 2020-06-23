@@ -146,8 +146,7 @@ After generating the data a series of scatter plots were created to showcase the
 ### <a name="(#Latitude_vs._Temperature_Plot"></a>Latitude vs. Temperature Plot
 ![Latitude vs. Temperature Plot](WeatherPy/output_data/latitude_vs_temperature.png)
 
-The above scatter plot showcase the relationship between Latitude at x-axis vs Max Temperature (F) at the y-axis. This result indicates that there is a higher temrature for the cities that found near to the equater (Latitude 0),however when you go farther from the equator towrads to the north and soutt the temprature will decrease.
-
+The above scatter plot showcase the relationship between Latitude at x-axis vs Max Temperature (F) at the y-axis. This result indicates that there is a higher temperature for cities that found near to the equater (Latitude 0),however when you go farther from the equator towrads to the north and south the temprature will decrease.
 ### <a name="Humidity_(%)_vs._Latitude"></a>Humidity (%) vs. Latitude
 ![Humidity (%) vs. Latitude](WeatherPy/output_data/latitude_vs_humidity.png)
 
