@@ -35,6 +35,8 @@ g_key="API_KEY_HERE"
 
 * The finding from the analysis of  the relationship between wind speed (mph), and latitude showed that the lower wind speed when the cities closer to the equater (latitude 0), and somehow the wind speed increase for the cities farther from the equater. The regression analysis also showed that there is a very week, posetive correlation between Wind Speed (mph (%) and Latitude in the Northern Hemisphere cities.
 
+* In the second task VacationPy, I understand that creating an exploratory-interactive geospatial, Weather information, heat maps, and visualization through Google API, and other similar API applications play a remarkable role to exploit the potential socio-economic value buried inside monotonously large datasets.
+
 ## Table of Contents
 * [Part I - WeatherPy](#WeatherPy)
  * [Scatter Plotting](#Scatter_Plotting)
