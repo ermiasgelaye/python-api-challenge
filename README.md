@@ -57,8 +57,8 @@ Snapshot taken on **23 June 2020** (northern-hemisphere summer). Each cell is th
 Using the weather data from Part I:
 
 1. Plots a **humidity heatmap** of every city with `jupyter-gmaps`.
-2. Narrows the list to cities with ideal vacation weather: warm, low wind and clear skies.
-3. Uses the **Google Places API** to find the nearest hotel in each of those cities and pins it on the map with its name, city and country.
+2. Narrows the list to cities with ideal vacation weather: a max temperature between **70 and 80 °F**, wind under **10 mph** and **0% cloudiness**.
+3. Uses the **Google Places API** to find the first hotel within **5 km** of each of those cities and pins it on the map with its name, city and country.
 
 | Humidity heatmap | Hotels in ideal-weather cities |
 |---|---|
